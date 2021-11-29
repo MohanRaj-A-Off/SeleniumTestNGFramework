@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17081" started-at="2021-11-23T11:27:21 IST" finished-at="2021-11-23T11:27:39 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="17081" started-at="2021-11-23T11:27:21 IST" finished-at="2021-11-23T11:27:39 IST">
+      <class name="com.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testcases.LoginPageTest@6b9651f3]" name="setup" is-config="true" duration-ms="10721" started-at="2021-11-23T11:27:22 IST" finished-at="2021-11-23T11:27:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateLoginTestUsingParameter(java.lang.String,java.lang.String)[pri:0, instance:com.testcases.LoginPageTest@6b9651f3]" name="validateLoginTestUsingParameter" duration-ms="5164" started-at="2021-11-23T11:27:32 IST" finished-at="2021-11-23T11:27:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginTestUsingParameter -->
+        <test-method status="PASS" signature="closesetup()[pri:0, instance:com.testcases.LoginPageTest@6b9651f3]" name="closesetup" is-config="true" duration-ms="1130" started-at="2021-11-23T11:27:37 IST" finished-at="2021-11-23T11:27:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closesetup -->
+      </class> <!-- com.testcases.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
